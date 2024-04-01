@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: rgba(255, 144, 14, 0.1);
-    padding: 50px 240px;
+    padding: 50px 200px;
 
 }
 
@@ -63,7 +63,7 @@ ul a {
 
 }
 
-.banner-container p {
+.banner-paragraph {
     color: rgb(114, 114, 114);
 
     font-size: 16px;
@@ -94,6 +94,53 @@ ul a {
 .banner-img img {
     width: 100%;
     margin-top: 50px;
+}
+
+/*main part- team-section */
+.main-section {
+    padding: 50px 100px;
+
+}
+
+.team-section {
+    display: flex;
+    align-items: center;
+}
+
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.team-img-container img {
+    width: 342px;
+    height: 342px;
+
+
+}
+
+.Quick-list-container {
+    padding-left: 50px;
+}
+
+.Quick-list {
+    color: rgb(114, 114, 114);
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.of-our {
+    font-weight: 700;
+    font-size: 45px;
+    color: rgb(19, 19, 19);
+}
+
+.Features {
+    font-weight: 700;
+    font-size: 45px;
+    color: rgb(255, 144, 14);
+
 }
 
 
@@ -134,8 +181,36 @@ ul a {
     .banner-section {
         display: block;
     }
-    .banner-container h1{
+
+    .banner-container h1 {
         font-size: 50px;
+    }
+
+    /*main section  */
+    .main-section {
+        padding: 30px 10px;
+        
+    
+    }
+    .team-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    
+        
+    }
+    .team-img-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+    .team-img-container img{
+        width: 100%;
+    }
+    .Quick-list-container {
+        text-align: center;
+        padding: 10px 10px;
     }
 
 
@@ -147,6 +222,20 @@ ul a {
 @media screen and (min-width:576px) and (max-width:1200px) {
     header {
         padding: 50px 50px;
+    }
+    .team-section{display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        
+
+    }
+    .main-section {
+        padding: 20px 20px;
+    
+    }
+    .Quick-list-container {
+        text-align: center;
+        padding: 10px 10px;
     }
 
 
