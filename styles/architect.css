@@ -1,0 +1,154 @@
+/* full body styles */
+body {
+    font-family: "Work Sans", sans-serif;
+
+}
+
+/* nav container */
+
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px;
+
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.nav-h3 {
+    color: rgb(19, 19, 19);
+
+    font-size: 45px;
+    font-weight: 700;
+
+
+
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+
+
+
+    font-size: 18px;
+    font-weight: 500;
+
+
+}
+
+ul a {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+
+/* banner container */
+.banner-section {}
+
+.banner-container {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.banner-container h1 {
+    color: rgb(19, 19, 19);
+
+    font-size: 64px;
+    font-weight: 700;
+
+}
+
+.banner-container p {
+    color: rgb(114, 114, 114);
+
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.primary-btn {
+    border-radius: 8px;
+
+    background: rgb(255, 144, 14);
+    padding: 20px 20px;
+    border: 0;
+    margin-top: 32px;
+
+}
+
+.primary-btn-text {
+    color: rgb(255, 255, 255);
+
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
+
+.banner-img img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+/* responsive media small device */
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px 20px;
+    }
+
+    .nav-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+
+    }
+
+    .nav-h3 {
+        text-align: center;
+    }
+
+    .nav-ul {
+        display: block;
+        margin-right: 20px;
+
+
+
+    }
+
+    li {
+        text-align: center;
+        padding-top: 10px;
+        padding-right: 10px;
+
+    }
+
+    /* nav section end */
+    /* banner section */
+    .banner-section {
+        display: block;
+    }
+    .banner-container h1{
+        font-size: 50px;
+    }
+
+
+
+
+}
+
+/* responsive for media devices */
+@media screen and (min-width:576px) and (max-width:1200px) {
+    header {
+        padding: 50px 50px;
+    }
+
+
+
+}
